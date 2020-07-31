@@ -11,11 +11,11 @@ macでしか動作確認してないので注意
 git clone git@github.com:rymiyamoto/img-orint.git
 ```
 
-1. 画像の用意
+2. 画像の用意
 
 なんとかしてOrientationが入った画像を用意する、そしてinフォルダに置く
 
-1. 実行
+3. 実行
 
 ```sh
 docker run -v "$PWD:/go/src" rymiyamoto/go-imagemagick7:latest /bin/sh -c "cd src/ && go run *.go"
