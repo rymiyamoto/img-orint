@@ -11,7 +11,9 @@ macでしか動作確認してないので注意
 git clone git@github.com:rymiyamoto/img-orint.git
 ```
 
-1. 画像をinフォルダに置く
+1. 画像の用意
+
+なんとかしてOrientationが入った画像を用意する、そしてinフォルダに置く
 
 1. 実行
 
